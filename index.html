@@ -5,6 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../style.css" />
+    <style>
+      html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: rgb(249, 247, 247);
+}
+.main-thing {
+  position: absolute;
+  display: flex;
+  height: 250px;
+  width: 250px;
+  flex-direction: column;
+  left: 40%;
+  top: 25%;
+}
+.top-thing {
+  height: 50%;
+  width: 100;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-thing {
+  background-color: #f248b6;
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 50%;
+  margin-right: 5px;
+}
+.thing-two {
+  background-color: #14527c;
+  height: 100%;
+  width: 50%;
+  border-top-right-radius: 50%;
+}
+.down-thing {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+  margin-top: 5px;
+}
+.thing-three {
+  background-color: #080b39;
+  height: 100%;
+  width: 50%;
+  border-bottom-left-radius: 50%;
+  margin-right: 5px;
+}
+.thing-four {
+  background-color: #69124a;
+  height: 100%;
+  width: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.first-thing:hover {
+  box-shadow: 13px 10px 44px 16px rgba(0, 0, 0, 0.46);
+}
+
+.thing-three:hover {
+  box-shadow: 13px 10px 44px 16px rgba(0, 0, 0, 0.46);
+}
+
+.thing-four:hover {
+  box-shadow: 13px 10px 44px 16px rgba(0, 0, 0, 0.46);
+}
+.thing-two:hover {
+  box-shadow: 13px 10px 44px 16px rgba(0, 0, 0, 0.46);
+}
+    </style>
   </head>
   <body>
     <div class="main-thing">
